@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: my-components
+  description: My components
+spec:
+  targets:
+    - ./artist.yaml
